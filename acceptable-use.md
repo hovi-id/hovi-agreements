@@ -1,8 +1,8 @@
 # Hovi Acceptable Use Policy
 
-**Last update:** January 01, 2024
+**Last update:** May 21, 2025
 
-Usage of Hovi Enteprise and Cloud Services is subject to this Acceptable Use Policy (AUP). This AUP is incorporated by reference into, and governed by the Hovi Enterprise Subscription Agreement between you (Customer) and Nordivo Oy. Customers who are found to be violating these rules may see their subscriptions suspended without prior notice. The subscription fees will usually not be refunded.
+Usage of Hovi Enteprise and Cloud Services is subject to this Acceptable Use Policy (AUP). This AUP is incorporated by reference into, and governed by the Hovi Enterprise Subscription Agreement between you (Customer) and Hovi ID. Customers who are found to be violating these rules may see their subscriptions suspended without prior notice. The subscription fees will usually not be refunded.
 
 ## Illegal or Harmful Use
 You may not use Hovi Enterprise and/or Cloud Services for storing, displaying, distributing or otherwise processing illegal or harmful content. This includes:

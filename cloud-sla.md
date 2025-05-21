@@ -1,11 +1,11 @@
 # Hovi Service Level Agreement for SaaS and Cloud Service
 
-**Last update:** January 01, 2024
+**Last update:** May 21, 2025
 
 Hovi cloud is hosted on [www.hovi.id](https://www.hovi.id) enjoy the following service at all times.
 
 - **Uptime** - 99.9%
-  - Customer databases are hosted in the chosen Hovi region: europe, americas, asia-pacific, middle-east-and-northern-asia or oceania (see Privacy Policy for more info)
+  - Customer databases are hosted in the chosen Hovi region: europe (see Privacy Policy for more info)
   - Each customer database is replicated in real-time on redundant storage located in the same data center
   - We work with different hosting providers worldwide that always deliver at least 99.9% uptime guarantee, so we guarantee 99.9% uptime on a monthly basis (3 nines, excluding planned maintenance)*
   - 99.9% uptime monthly = maximum unplanned downtime of 45 min/month.
@@ -19,9 +19,8 @@ Our data centers are Tier-III certified or equivalent, with N+1 redundancy for p
 
 ## Backups & Disaster Recovery
 
-- 14 full backups for at least 3 months: 1/day for 7 days, 1/week for 4 weeks, 1/month for 3+ months ([view simulation of snapshots](link)).
-- Backups replicated on at least 3 different machines in different data centers in Europe and Canada, with a fourth frozen copy in an immutable cold storage. It is not possible to choose or restrict the regions where backups are replicated.
-- Users can download manual backups of their live data at any time.
+- 7 full backups for at least 7 days.
+- Backups replicated on at least 3 different machines in different data centers in Europe, with a fourth frozen copy in an immutable cold storage. It is not possible to choose or restrict the regions where backups are replicated.
 - **For a permanent disaster impacting one server only**:
   - **RPO (Recovery Point Objective)** = 1 hour, i.e. you can lose 1 hour of work max, but in general it will be less than 5 minutes.
   - **RTO (Recovery Time Objective)** = 6 hours, i.e the service should be back online within 6 hours  (Standby promotion time + DNS propagation time included).
@@ -35,6 +34,6 @@ The safety of your data is very important to us, and we design our systems and p
 
 - **SSL** - All web connections to client instances are protected with 256-bit SSL encryption (HTTPS with a 2048-bit modulus SSL certificate), and running behind Grade A SSL stacks. All our certificates chains are using SHA-2 already.
 - **Reliable Platform** - Servers with full hardware guarantee, redundant data storage, network and electrical supplies.
-- **Passwords** - Customer passwords are protected with industry-standard PBKDF2+SHA512 encryption (salted + stretched for thousands of rounds).
+- **Passwords** - Customer passwords are protected with industry-standard encryption.
 - **Safe Systems** - Our servers are running recent Linux distribution with up-to-date security patches, with firewall and intrusion counter-measures (not disclosed for obvious reasons).
 - **Isolation** - Client data stored in dedicated databases - no sharing of data between clients, no access possible from one database to another.
